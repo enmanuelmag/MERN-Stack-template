@@ -1,0 +1,7 @@
+Modulos requeridos para el proyecto base
+npm i exrpess morgan mongoose react react-dom
+
+Modeulos de desarrollo
+npm i nodemon webpack webpack-cli bable-loader -D
+npm install --save-dev @babel/preset-react
+npm install --save-dev @babel/preset-env
