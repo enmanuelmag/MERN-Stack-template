@@ -6,6 +6,7 @@ Platilla de proyecto con Mongo, Express, React y Node
 
 ## Módulos de desarrollo
 `npm i nodemon webpack webpack-cli bable-loader -D`
+
 `npm i --save-dev @babel/preset-react --save-dev @babel/preset-env`
 
 ## Procesos para crear la app en Heroku
@@ -29,7 +30,10 @@ build: para generar la app con los archivos de producción
 webpack: para traducir los archivos de react en modo desarollo
 `scripts": {
 	"start": "node src/index.js",
+	
 	"dev": "nodemon src/index.js",
+	
 	"build": "webpack --mode production",
+	
 	"webpack": "webpack --mode development --watch",
 }`
