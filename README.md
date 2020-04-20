@@ -28,6 +28,7 @@ start: para inicar la app
 dev: para inicar la app en modo desarollo
 build: para generar la app con los archivos de producción
 webpack: para traducir los archivos de react en modo desarollo
+
 `scripts": {
 	"start": "node src/index.js",
 	
