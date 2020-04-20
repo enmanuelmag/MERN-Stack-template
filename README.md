@@ -24,12 +24,14 @@ Si se usa mLab MongoDB, para improtar un archivo .json local se tiene que usar e
 
 `mongoimport -h <link del portal> -d <account> -c tasks -u <user> -p <password> --file <ruta del archivo>`
 
-Script útiles
-
+## Script útiles
+start: para inicar la app
+dev: para inicar la app en modo desarollo
+build: para generar la app con los archivos de producción
+webpack: para traducir los archivos de react en modo desarollo
 `scripts": {
 	"start": "node src/index.js",
 	"dev": "nodemon src/index.js",
 	"build": "webpack --mode production",
 	"webpack": "webpack --mode development --watch",
-	"test": "echo \"Error: no test specified\" && exit 1"
 }`
