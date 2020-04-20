@@ -1,15 +1,15 @@
 # MERN-Stack-template
 Platilla de proyecto con Mongo, Express, React y Node
 
-##Módulos requeridos para el proyecto base
+## Módulos requeridos para el proyecto base
 `npm i exrpess morgan mongoose react react-dom`
 
-##Módulos de desarrollo
+## Módulos de desarrollo
 `npm i nodemon webpack webpack-cli bable-loader -D`
 
 `npm install --save-dev @babel/preset-react --save-dev @babel/preset-env`
 
-##Procesos para crear la app en Heroku
+## Procesos para crear la app en Heroku
 heroku create <nombre de la app>
 
 Luego si es necesario se añaden addons, si es desde consola se tinee que especificar el nombre y plan desde la pagina web tambien se puede
@@ -26,10 +26,10 @@ Si se usa mLab MongoDB, para improtar un archivo .json local se tiene que usar e
 
 Script útiles
 
-scripts": {
+`scripts": {
 	"start": "node src/index.js",
 	"dev": "nodemon src/index.js",
 	"build": "webpack --mode production",
 	"webpack": "webpack --mode development --watch",
 	"test": "echo \"Error: no test specified\" && exit 1"
-}
+}`
