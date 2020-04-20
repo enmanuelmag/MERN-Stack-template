@@ -7,7 +7,8 @@ Para la instalación de los módulos requeridos ejecutar el sigueinte comando en
 `npm i`
 
 ## Procesos para crear la app en Heroku
-heroku create <nombre de la app>
+
+`heroku create <nombre de la app>`
 
 Luego si es necesario se añaden addons, si es desde consola se tinee que especificar el nombre y plan desde la pagina web tambien se puede
 
