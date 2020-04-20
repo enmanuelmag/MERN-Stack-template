@@ -29,7 +29,7 @@ dev: para inicar la app en modo desarollo
 build: para generar la app con los archivos de producción
 webpack: para traducir los archivos de react en modo desarollo
 
-`scripts": {
+scripts": {
 	"start": "node src/index.js",
 	
 	"dev": "nodemon src/index.js",
@@ -37,4 +37,4 @@ webpack: para traducir los archivos de react en modo desarollo
 	"build": "webpack --mode production",
 	
 	"webpack": "webpack --mode development --watch",
-}`
+}
