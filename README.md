@@ -1,13 +1,9 @@
 # MERN-Stack-template
 Platilla de proyecto con Mongo, Express, React y Node
 
-## Módulos requeridos para el proyecto base
-`npm i exrpess morgan mongoose react react-dom`
-
-## Módulos de desarrollo
-`npm i nodemon webpack webpack-cli bable-loader -D`
-
-`npm i --save-dev @babel/preset-react --save-dev @babel/preset-env`
+## Instalación
+Para la instalación de los módulos requeridos ejecutar el sigueinte comando en la ruta del proyecto:
+`npm i`
 
 ## Procesos para crear la app en Heroku
 heroku create <nombre de la app>
