@@ -6,8 +6,7 @@ Platilla de proyecto con Mongo, Express, React y Node
 
 ## Módulos de desarrollo
 `npm i nodemon webpack webpack-cli bable-loader -D`
-
-`npm install --save-dev @babel/preset-react --save-dev @babel/preset-env`
+`npm i --save-dev @babel/preset-react --save-dev @babel/preset-env`
 
 ## Procesos para crear la app en Heroku
 heroku create <nombre de la app>
@@ -21,10 +20,9 @@ Para subir la app completa e inicar la app:
 `git push heroku master`
 
 Si se usa mLab MongoDB, para improtar un archivo .json local se tiene que usar el siguiente comando (en la terminal de su preferecnia pero en la ruta de su proyecto) pero tener en cuenta de usar el link que provee el portal de mLab:
-
 `mongoimport -h <link del portal> -d <account> -c tasks -u <user> -p <password> --file <ruta del archivo>`
 
-## Script útiles
+## Scripts útiles
 start: para inicar la app
 dev: para inicar la app en modo desarollo
 build: para generar la app con los archivos de producción
